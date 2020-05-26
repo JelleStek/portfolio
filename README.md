@@ -1,6 +1,6 @@
 ## Portfolio - Jelle Stekelenburg
 #### INFO
- - Jelle@nwave.nl
+ - info@jellestekelenburg.nl
  - Jellestekelenburg.nl
     
     
