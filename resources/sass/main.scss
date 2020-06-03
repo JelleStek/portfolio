@@ -1,0 +1,69 @@
+//fonts
+@import url("https://use.typekit.net/hrt6ppr.css");
+
+// main
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+//head
+.head {
+    height: 100vh;
+    width: 100%;
+    background: #000;
+
+    & .img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-image: url("../../public/img/head.jpg");
+        background-position: center center;
+        background-size: cover;
+        //animation: fadeIn 1s;
+
+        & .overlay {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            background: rgba(0,0,0,.5);
+            //animation: fadeIn 3s;
+        }
+    }
+
+    & .text {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+
+        & h1 {
+            color: #fff;
+            font-family: forma-djr-text, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1px;
+            line-height: .9em;
+            font-size: 5em;
+        }
+
+        & p {
+            font-family: forma-djr-text, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            color: #fff;
+            font-size: 1.3em;
+            letter-spacing: 5px;
+        }
+    }
+}
+// keyframes
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
