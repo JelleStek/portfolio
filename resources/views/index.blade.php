@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Portfolio - </title>
+@extends('layouts.master')
 
-        <link rel="stylesheet" href="css/main.css">
-    </head>
+@section('main')
 
-    <body>
+    <h1>test</h1>
 
-    </body>
-</html>
+@endsection
