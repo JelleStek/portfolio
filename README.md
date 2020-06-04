@@ -1,4 +1,5 @@
-## New portfolio of Jelle Stekelenburg
+![Test Image 1](Assets/linkedin.png)
+# New portfolio of Jelle Stekelenburg
 
 I'm working on my new portfolio for my next internship.
 Its main use is to show off my work, may this be school related or not.
