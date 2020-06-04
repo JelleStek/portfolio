@@ -19317,6 +19317,17 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/head.scss":
+/*!**********************************!*\
+  !*** ./resources/sass/head.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: expected \"{\".\n  ╷\n1 │ condition\n  │          ^\n  ╵\n  D:\\xampp\\htdocs\\portfolio\\resources\\sass\\head.scss 1:10  root stylesheet\n    at runLoaders (D:\\xampp\\htdocs\\portfolio\\node_modules\\webpack\\lib\\NormalModule.js:316:20)\n    at D:\\xampp\\htdocs\\portfolio\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at D:\\xampp\\htdocs\\portfolio\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (D:\\xampp\\htdocs\\portfolio\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at render (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass-loader\\dist\\index.js:73:7)\n    at Function.call$2 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:87584:16)\n    at _render_closure1.call$2 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:77359:12)\n    at _RootZone.runBinary$3$3 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:25587:18)\n    at _RootZone.runBinary$3 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:25591:19)\n    at _FutureListener.handleError$1 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:24041:19)\n    at _Future__propagateToListeners_handleError.call$0 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:24337:40)\n    at Object._Future__propagateToListeners (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:3497:88)\n    at _Future._completeError$2 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:24165:9)\n    at _AsyncAwaitCompleter.completeError$2 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:23557:12)\n    at Object._asyncRethrow (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:3253:17)\n    at D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:13333:20\n    at _wrapJsFunctionForAsync_closure.$protected (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:3276:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:23578:12)\n    at _awaitOnObject_closure0.call$2 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:23570:25)\n    at _RootZone.runBinary$3$3 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:25587:18)\n    at _RootZone.runBinary$3 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:25591:19)\n    at _FutureListener.handleError$1 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:24041:19)\n    at _Future__propagateToListeners_handleError.call$0 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:24337:40)\n    at Object._Future__propagateToListeners (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:3497:88)\n    at _Future._completeError$2 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:24165:9)\n    at _Future__asyncCompleteError_closure.call$0 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:24260:18)\n    at Object._microtaskLoop (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:3547:21)\n    at StaticClosure._startMicrotaskLoop (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:3553:11)\n    at _AsyncRun__scheduleImmediateJsOverride_internalCallback.call$0 (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:23475:21)\n    at invokeClosure (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:1360:26)\n    at Immediate.<anonymous> (D:\\xampp\\htdocs\\portfolio\\node_modules\\sass\\sass.dart.js:1381:18)\n    at runCallback (timers.js:705:18)\n    at tryOnImmediate (timers.js:676:5)\n    at processImmediate (timers.js:658:5)");
+
+/***/ }),
+
 /***/ "./resources/sass/main.scss":
 /*!**********************************!*\
   !*** ./resources/sass/main.scss ***!
@@ -19329,14 +19340,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /***/ }),
 
 /***/ 0:
-/*!**************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/main.scss ***!
-  \**************************************************************/
+/*!*****************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/main.scss ./resources/sass/head.scss ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! D:\xampp\htdocs\portfolio\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\xampp\htdocs\portfolio\resources\sass\main.scss */"./resources/sass/main.scss");
+__webpack_require__(/*! D:\xampp\htdocs\portfolio\resources\sass\main.scss */"./resources/sass/main.scss");
+module.exports = __webpack_require__(/*! D:\xampp\htdocs\portfolio\resources\sass\head.scss */"./resources/sass/head.scss");
 
 
 /***/ })
