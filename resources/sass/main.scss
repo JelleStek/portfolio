@@ -12,6 +12,56 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+//nav
+nav {
+    position: fixed;
+    height: 50px;
+    background: rgba(0,0,0,.3);
+    width: 100%;
+    z-index: 2;
+    animation: nav 1.5s;
+
+    & .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        & .left {
+            margin-left: 12em;
+
+            & img {
+                height: 40px;
+                margin-top: 5px;
+            }
+        }
+
+        & .right {
+            width: 100%;
+            text-align: right;
+
+            & ul {
+                list-style-type: none;
+                display: inline-flex;
+                margin-right: 12em;
+
+
+                & a {
+                    text-decoration: none;
+                    color: #fff;
+
+                    & li {
+                        font-family: forma-djr-text, sans-serif;
+                        font-weight: 300;
+                        font-style: normal;
+                        font-size: 1.45em;
+                        margin-left: 2em;
+                        line-height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 //head
 .head {
@@ -39,10 +89,10 @@ html {
     & .text {
         position: absolute;
         top: 50%;
-        left: 26%;
-        transform: translate(-50%, -50%);
+        transform: translateY(-50%);
         animation: text-in 1s;
         font-size: 1.2em;
+        margin-left: 10%;
 
         & h1 {
             color: #fff;
@@ -71,7 +121,7 @@ html {
     top: 50%;
     left: calc(100% - 40px);
     transform: translate(-50%, -50%);
-    animation: left-right 3s;
+    animation: left-right 2s;
     opacity: .8;
 
     & ul {
@@ -91,3 +141,7 @@ html {
     }
 }
 
+
+.test {
+    height: 100vh;
+}

@@ -33,5 +33,13 @@
     opacity: 0.8;
   }
 }
+@keyframes nav {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /*# sourceMappingURL=keyframes.css.map */
