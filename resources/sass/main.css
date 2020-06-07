@@ -12,10 +12,10 @@ html {
 nav {
   position: fixed;
   height: 50px;
-  background: rgba(0, 0, 0, 0.3);
   width: 100%;
   z-index: 2;
   animation: nav 1.5s;
+  transition: 0.5s;
 }
 nav .grid {
   display: grid;
@@ -48,6 +48,11 @@ nav .grid .right ul a li {
   font-size: 1.45em;
   margin-left: 2em;
   line-height: 50px;
+}
+
+nav.bg {
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
 }
 
 .head {
