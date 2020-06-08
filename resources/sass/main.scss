@@ -16,10 +16,10 @@ html {
 nav {
     position: fixed;
     height: 50px;
-    background: rgba(0,0,0,.3);
     width: 100%;
     z-index: 2;
     animation: nav 1.5s;
+    transition: .5s;
 
     & .grid {
         display: grid;
@@ -50,7 +50,7 @@ nav {
 
                     & li {
                         font-family: forma-djr-text, sans-serif;
-                        font-weight: 300;
+                        font-weight: 400;
                         font-style: normal;
                         font-size: 1.45em;
                         margin-left: 2em;
@@ -62,6 +62,10 @@ nav {
     }
 }
 
+nav.bg {
+    background: rgba(0,0,0,.5);
+    transition: .5s;
+}
 
 //head
 .head {
