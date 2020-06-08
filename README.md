@@ -18,4 +18,8 @@ Deze week gedaan
 * Socialmedia/info aan de rechter kant van de header gemaakt
 * Animaties gemaakt
 
+Eindresultaat
+
 ![Test_image_1](Assets/screen.jpg)
+
+> Jelle Stekelenburg 08/06/2020 15:03
