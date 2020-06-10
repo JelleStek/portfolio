@@ -1,0 +1,94 @@
+footer {
+    z-index: 200;
+    height: 330px;
+    padding: 0;
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    font-family: upgrade, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+
+    & .spacing {
+        height: 50px;
+    }
+
+    & h1 {
+        margin: 0;
+        padding: 0;
+        font-family: uppercut-angle, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    & .content {
+        width: 85%;
+        margin: 0 auto;
+
+        & .underline {
+            height: 2px;
+            width: 30px;
+            background-color: #fff;
+        }
+
+        & .grid1 {
+            grid-template-columns: 1fr 1fr 50%;
+            display: grid;
+            height: 100px;
+
+            & .list {
+                height: 100px;
+
+                & ul {
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 0;
+                    font-family: upgrade, sans-serif;
+
+                    & li {
+                        margin-top: .2em;
+
+                        & a {
+                            text-decoration: none;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            & .img {
+                height: 100px;
+
+                & img {
+                    height: 100px;
+                    border-radius: .5em;
+                    box-shadow: 0px 0px 5px rgba(0,0,0,.3);
+                }
+            }
+        }
+        & .grid2 {
+            padding-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 60px;
+
+            & h5 {
+                margin-top: auto;
+                margin-bottom: 0;
+                font-family: upgrade-lights, sans-serif;
+                font-weight: 200;
+                font-size: .8em;
+
+                & a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
