@@ -1,21 +1,30 @@
 nav {
-    position: fixed;
-    height: 50px;
     width: 100%;
-    z-index: 2;
-    animation: nav 1.5s;
-    transition: .5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: #000;
+    z-index: 10000;
 
     & .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin: 0 auto;
 
         & .left {
-            margin-left: 12em;
 
-            & img {
-                height: 40px;
-                margin-top: 5px;
+            & h1 {
+                margin: 0;
+                padding: 0;
+                font-family: forma-djr-text, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: 1px;
+                font-size: 2.5em;
+                color: #fff;
+                line-height: 80px;
             }
         }
 
@@ -26,28 +35,31 @@ nav {
             & ul {
                 list-style-type: none;
                 display: inline-flex;
-                margin-right: 12em;
-
 
                 & a {
                     text-decoration: none;
                     color: #fff;
+                    font-size: 1.4em;
+                    line-height: 80px;
+                    margin-left: 2em;
+                    text-align: right;
+                }
 
-                    & li {
-                        font-family: forma-djr-text, sans-serif;
-                        font-weight: 400;
-                        font-style: normal;
-                        font-size: 1.45em;
-                        margin-left: 2em;
-                        line-height: 50px;
-                    }
+                & a.active {
+                    border-bottom: 2px solid #155fff;
                 }
             }
         }
     }
 }
 
-nav.bg {
-    background: rgba(0,0,0,.5);
-    transition: .5s;
+.line_nav {
+    height: 1px;
+    width: 100%;
+    background-color: #636b6f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 80px;
+    z-index: 10000;
 }

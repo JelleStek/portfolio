@@ -15,19 +15,21 @@ footer {
 }
 
 footer .spacing {
-  height: 50px;
+  height: 40px;
 }
 
 footer h1 {
   margin: 0;
   padding: 0;
-  font-family: uppercut-angle, sans-serif;
-  font-weight: 400;
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 700;
   font-style: normal;
+  letter-spacing: 1px;
+  font-size: 2.5em;
 }
 
 footer .content {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -56,6 +58,7 @@ footer .content .grid1 .list ul {
 
 footer .content .grid1 .list ul li {
   margin-top: 0.2em;
+  font-size: 1.1em;
 }
 
 footer .content .grid1 .list ul li a {
@@ -71,25 +74,5 @@ footer .content .grid1 .img img {
   height: 100px;
   border-radius: 0.5em;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-}
-
-footer .content .grid2 {
-  padding-top: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 60px;
-}
-
-footer .content .grid2 h5 {
-  margin-top: auto;
-  margin-bottom: 0;
-  font-family: upgrade-lights, sans-serif;
-  font-weight: 200;
-  font-size: 0.8em;
-}
-
-footer .content .grid2 h5 a {
-  text-decoration: none;
-  color: #fff;
 }
 

@@ -1,4 +1,8 @@
-@import url(https://use.typekit.net/hrt6ppr.css);* {
+@import url(https://use.typekit.net/hrt6ppr.css);.blue {
+  color: #155fff !important;
+}
+
+* {
   margin: 0;
   padding: 0;
 }
@@ -9,6 +13,11 @@ html {
   font-family: forma-djr-text, sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #000;
+}
+
+.light_spacing {
+  height: 50px;
 }
 
 .head {
@@ -17,32 +26,15 @@ html {
   background: #000;
 }
 
-.head .img {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-image: url(/images/head.jpg?82aa3c57d569ae9e94e2d3e735ed4485);
-  background-position: center center;
-  background-size: cover;
-  -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s;
-}
-
-.head .img .overlay {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.5);
-}
-
 .head .text {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   -webkit-animation: text-in 1s;
           animation: text-in 1s;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-left: 10%;
+  max-width: 40%;
 }
 
 .head .text h1 {
@@ -52,42 +44,48 @@ html {
   font-style: normal;
   letter-spacing: 1px;
   line-height: 0.9em;
-  font-size: 5em;
+  font-size: 4em;
 }
 
-.head .text p {
-  font-family: forma-djr-text, sans-serif;
-  font-weight: 300;
-  font-style: normal;
+.head .text a.p_buttom {
+  background-color: #155fff;
   color: #fff;
-  font-size: 1.3em;
-  letter-spacing: 5px;
-}
-
-.social {
-  position: absolute;
-  top: 50%;
-  left: calc(100% - 40px);
-  transform: translate(-50%, -50%);
-  -webkit-animation: left-right 2s;
-          animation: left-right 2s;
-  opacity: 0.8;
-}
-
-.social ul {
-  list-style-type: none;
-}
-
-.social ul a {
   text-decoration: none;
+  padding: 20px 50px;
+  margin-top: 6em;
+  transition: 0.5s;
 }
 
-.social ul a li {
-  margin-top: 1em;
+.head .text a.p_buttom:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+  transition: 0.5s;
 }
 
-.social ul a li img {
-  width: 60px;
+.head .text a.cv_button {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 50px;
+  margin-top: 6em;
+}
+
+.head .text a.cv_button img {
+  height: 20px;
+  padding-right: 0.6em;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.head .img {
+  float: right;
+  padding-right: 5em;
+  padding-top: 2em;
+  -webkit-animation: fade 1s;
+          animation: fade 1s;
+}
+
+.head .img img {
+  width: 90%;
+  opacity: 0.8;
 }
 
 .test {
