@@ -1,4 +1,3 @@
-![Test Image 1](Assets/linkedin.png)
 # New portfolio: Jelle Stekelenburg
 
 Ik ben aan het werk met mijn nieuwe portfolio,
@@ -20,6 +19,6 @@ Deze week gedaan
 
 Eindresultaat
 
-![Test_image_1](Assets/screen.jpg)
+![Test_image_1](Assets/screen.png)
 
 > Jelle Stekelenburg 08/06/2020 15:03
