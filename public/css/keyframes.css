@@ -84,7 +84,7 @@
   }
 }
 
-@-webkit-keyframes nav {
+@-webkit-keyframes fade {
   0% {
     opacity: 0;
   }
@@ -94,7 +94,7 @@
   }
 }
 
-@keyframes nav {
+@keyframes fade {
   0% {
     opacity: 0;
   }

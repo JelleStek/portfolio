@@ -1,24 +1,38 @@
 @extends('layouts.master')
-
-@section('main')
-
-    <div class="head">
-        <div class="img">
-            <div class="overlay"></div>
+{{--nav--}}
+<nav>
+    <div class="grid">
+        <div class="left">
+            <h1>JS.</h1>
         </div>
-        <div class="text">
-            <h1>Jelle<br>Stekelenburg</h1>
-            <p>Front-End Developer</p>
-        </div>
-
-        <div class="social">
+        <div class="right">
             <ul>
-                <a target="_blank" href="https://github.com/JellyOnMa"><li><img src="{{asset('images/icon1.png')}}"></li></a>
-                <a target="_blank" href="https://www.linkedin.com/in/jelle-stekelenburg-1887ba178/"><li><img src="{{asset('images/icon2.png')}}"></li></a>
-                <a href="mailto:info@jellestekelenburg.nl"><li><img src="{{asset('images/icon3.png')}}"></li></a>
+                <a href="" class="active"><li>Home</li></a>
+                <a href=""><li>About</li></a>
+                <a href=""><li>Portfolio</li></a>
+                <a href=""><li>Contact</li></a>
             </ul>
         </div>
     </div>
+</nav>
+<div class="line_nav"></div>
+{{--end nav--}}
+
+@section('main')
+
+    {{--landing header--}}
+    <div class="head">
+        <div class="text">
+            <h1>Hoi, Ik ben Jelle &mdash; een <span class="blue">Front-End</span> Developer in de regio Amsterdam.</h1>
+            <div class="light_spacing"></div>
+            <a href="" class="p_buttom">Portfolio.</a>
+            <a href="" class="cv_button"><img src="{{asset('images/icon/download.png')}}" alt="">Download CV</a>
+        </div>
+        <div class="img">
+            <img src="{{asset('images/head.png')}}" alt="image">
+        </div>
+    </div>
+    {{--End landing header--}}
 
     <div class="test"></div>
 
