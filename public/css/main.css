@@ -21,7 +21,7 @@ html {
 }
 
 .big_spacing {
-  height: 250px;
+  height: 150px;
 }
 
 .head {
@@ -97,6 +97,8 @@ html {
 
 .main-info {
   width: 100%;
+  background: #090909;
+  height: 530px;
 }
 
 .main-info .sidetext {
@@ -193,7 +195,7 @@ html {
 .projects .middle .grid .prj .bg1 {
   height: 100%;
   width: 100%;
-  background-image: url(/images/1.jpg?407660eb8da41830cdcdf60df74b05d7);
+  background-image: url(/images/3.jpg?757af440e41f9e025db1d07f80158cae);
   background-size: cover;
   background-position: center center;
 }
@@ -201,7 +203,7 @@ html {
 .projects .middle .grid .prj .bg2 {
   height: 100%;
   width: 100%;
-  background-image: url(/images/2.jpg?a6744c370b6e24d86e7716d15e7f84f8);
+  background-image: url(/images/3.jpg?757af440e41f9e025db1d07f80158cae);
   background-size: cover;
   background-position: center center;
 }
@@ -212,6 +214,22 @@ html {
   background-image: url(/images/3.jpg?757af440e41f9e025db1d07f80158cae);
   background-size: cover;
   background-position: center center;
+}
+
+.projects .middle .grid .prj .bg h2 {
+  color: #fff;
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 0.9em;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5em;
+  opacity: 0.3;
 }
 
 .projects .middle .grid .prj .bg h3 {

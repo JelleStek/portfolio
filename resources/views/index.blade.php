@@ -50,40 +50,43 @@
             </div>
         </div>
         <div class="big_spacing"></div>
-        <div class="projects">
-            <div class="sidetext">
-                <p class="">- Latest projects</p>
-            </div>
-            <div class="middle">
-                <h1>Mijn werk.</h1>
-                <div class="grid">
-                    <div class="prj">
-                        <div class="bg1 bg">
-                            <h3>Get up Stand up</h3>
-                            <p>Website voor comedian groep in Medemblik</p>
-                            <a href="https://getupstandup.nl/" target="_blank">Resultaat</a>
-                        </div>
+    </div>
+    <div class="big_spacing"></div>
+    <div class="projects">
+        <div class="sidetext">
+            <p class="">- Latest projects</p>
+        </div>
+        <div class="middle">
+            <h1>Mijn werk.</h1>
+            <div class="grid">
+                <div class="prj">
+                    <div class="bg1 bg">
+                        <h2>JS.</h2>
+                        <h3>Get up Stand up</h3>
+                        <p>Website voor comedian groep in Medemblik</p>
+                        <a href="https://getupstandup.nl/" target="_blank">Resultaat</a>
                     </div>
-                    <div class="prj">
-                        <div class="bg2 bg">
-                            <h3>Coming Soon</h3>
-                            <p>Coming Soon</p>
-                            <a href="" target="_blank">Resultaat</a>
-                        </div>
+                </div>
+                <div class="prj">
+                    <div class="bg2 bg">
+                        <h2>JS.</h2>
+                        <h3>Coming Soon</h3>
+                        <p>Coming Soon</p>
+{{--                        <a href="" target="_blank">Resultaat</a>--}}
                     </div>
-                    <div class="prj">
-                        <div class="bg3 bg">
-                            <h3>Coming Soon</h3>
-                            <p>Coming Soon</p>
-                            <a href="" target="_blank">Resultaat</a>
-                        </div>
+                </div>
+                <div class="prj">
+                    <div class="bg3 bg">
+                        <h2>JS.</h2>
+                        <h3>Coming Soon</h3>
+                        <p>Coming Soon</p>
+{{--                        <a href="" target="_blank">Resultaat</a>--}}
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="test"></div>
+    <br><br><br>
 
 
 @endsection

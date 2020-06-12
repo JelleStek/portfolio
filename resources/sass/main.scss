@@ -30,7 +30,7 @@ html {
     height: 50px;
 }
 .big_spacing {
-    height: 250px;
+    height: 150px;
 }
 
 
@@ -109,6 +109,8 @@ html {
 
 .main-info {
     width: 100%;
+    background: #090909;
+    height: 530px;
 
     & .sidetext {
         font-family: 'Inter', sans-serif;
@@ -200,14 +202,14 @@ html {
                 & .bg1 {
                     height: 100%;
                     width: 100%;
-                    background-image: url("../../public/img/latest/1.jpg");
+                    background-image: url("../../public/img/latest/3.jpg");
                     background-size: cover;
                     background-position: center center;
                 }
                 & .bg2 {
                     height: 100%;
                     width: 100%;
-                    background-image: url("../../public/img/latest/2.jpg");
+                    background-image: url("../../public/img/latest/3.jpg");
                     background-size: cover;
                     background-position: center center;
                 }
@@ -220,6 +222,22 @@ html {
                 }
                 & .bg {
 
+
+                    & h2 {
+                        color: #fff;
+                        font-family: forma-djr-text, sans-serif;
+                        font-weight: 700;
+                        font-style: normal;
+                        letter-spacing: 1px;
+                        text-align: center;
+                        line-height: .9em;
+                        position: relative;
+                        top: 10%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-size: 3.5em;
+                        opacity: .3;
+                    }
                     & h3 {
                         font-family: 'Inter', sans-serif;
                         position: relative;
