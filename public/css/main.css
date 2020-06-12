@@ -1,4 +1,4 @@
-@import url(https://use.typekit.net/hrt6ppr.css);.blue {
+@import url(https://use.typekit.net/hrt6ppr.css);@import url(https://rsms.me/inter/inter.css);.blue {
   color: #155fff !important;
 }
 
@@ -10,14 +10,18 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-family: forma-djr-text, sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: #000;
+  color: #fff;
 }
 
 .light_spacing {
   height: 50px;
+}
+
+.big_spacing {
+  height: 150px;
 }
 
 .head {
@@ -54,11 +58,13 @@ html {
   padding: 20px 50px;
   margin-top: 6em;
   transition: 0.5s;
+  font-family: "Inter", sans-serif;
 }
 
 .head .text a.p_buttom:hover {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
   transition: 0.5s;
+  opacity: 0.8;
 }
 
 .head .text a.cv_button {
@@ -66,6 +72,7 @@ html {
   text-decoration: none;
   padding: 20px 50px;
   margin-top: 6em;
+  font-family: "Inter", sans-serif;
 }
 
 .head .text a.cv_button img {
@@ -86,6 +93,188 @@ html {
 .head .img img {
   width: 90%;
   opacity: 0.8;
+}
+
+.main-info {
+  width: 100%;
+  background: #090909;
+  height: 530px;
+}
+
+.main-info .sidetext {
+  font-family: "Inter", sans-serif;
+  float: left;
+  margin-left: 6%;
+  color: #155fff;
+}
+
+.main-info .sidetext p {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-info .text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-info .text h1 {
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 0.9em;
+  font-size: 3.5em;
+  max-width: 30%;
+}
+
+.main-info .text2 {
+  width: 80%;
+  margin: 0 auto;
+  font-family: forma-djr-text, sans-serif;
+  font-size: 1.5em;
+  grid-gap: 2em;
+}
+
+.main-info .text2 p {
+  max-width: 70%;
+}
+
+.projects {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.projects .sidetext {
+  font-family: "Inter", sans-serif;
+  float: left;
+  margin-left: 6%;
+  color: #155fff;
+}
+
+.projects .sidetext p {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.projects h1 {
+  color: #fff;
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 0.9em;
+  font-size: 3em;
+  margin-bottom: 0.2em;
+}
+
+.projects .middle {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.projects .middle .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 0 auto;
+  grid-gap: 9em;
+}
+
+.projects .middle .grid .prj {
+  width: 100%;
+  margin: 0 auto;
+  height: 600px;
+  border: 2px Solid #151515;
+}
+
+.projects .middle .grid .prj .bg1 {
+  height: 100%;
+  width: 100%;
+  background-image: url(/images/3.jpg?757af440e41f9e025db1d07f80158cae);
+  background-size: cover;
+  background-position: center center;
+}
+
+.projects .middle .grid .prj .bg2 {
+  height: 100%;
+  width: 100%;
+  background-image: url(/images/3.jpg?757af440e41f9e025db1d07f80158cae);
+  background-size: cover;
+  background-position: center center;
+}
+
+.projects .middle .grid .prj .bg3 {
+  height: 100%;
+  width: 100%;
+  background-image: url(/images/3.jpg?757af440e41f9e025db1d07f80158cae);
+  background-size: cover;
+  background-position: center center;
+}
+
+.projects .middle .grid .prj .bg h2 {
+  color: #fff;
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 0.9em;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5em;
+  opacity: 0.3;
+}
+
+.projects .middle .grid .prj .bg h3 {
+  font-family: "Inter", sans-serif;
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.5);
+}
+
+.projects .middle .grid .prj .bg p {
+  font-family: "Inter", sans-serif;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.3em;
+  text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
+
+.projects .middle .grid .prj .bg a {
+  display: block;
+  background: #151515;
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 50px;
+  width: 30%;
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+}
+
+.projects .middle .grid .prj .bg a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
 }
 
 .test {

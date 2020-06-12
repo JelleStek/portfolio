@@ -21,20 +21,6 @@
         }
     }
 
-    @keyframes left-right {
-        0% {
-            left: calc(100% + 80px);
-        }
-        80% {
-            left: calc(100% + 80px);
-            opacity: 0;
-        }
-        100% {
-            left: calc(100% - 40px);
-            opacity: .8;
-        }
-    }
-
     @keyframes fade {
         0% {
             opacity: 0;
@@ -43,4 +29,15 @@
             opacity: 1;
         }
     }
+
+
+    @keyframes projects {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
 
