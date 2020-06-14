@@ -1,8 +1,7 @@
-![Test Image 1](Assets/linkedin.png)
 # New portfolio: Jelle Stekelenburg
 
-I'm working on my new portfolio for my next internship.
-Its main use is to show off my work, may this be school related or not.
+Ik ben aan het werk met mijn nieuwe portfolio,
+Dit portfolio word gebruikt om mijn werk te laten zien.
 
 ### Devlog
 #### Week 1 
@@ -43,10 +42,13 @@ Deze week gedaan:
 
 Resultaat tot nu toe:
 
-![Test_image_1](Assets/screen.jpg)
+![Test_image_1](Assets/screen.png)
+
 
 
 Bestanden:
 - [Moodbord voor kleren](https://xd.adobe.com/view/af63fad7-4372-4584-4e50-7731fd0b9444-d952/)
 
 > 14/06/2020 20:59
+
+

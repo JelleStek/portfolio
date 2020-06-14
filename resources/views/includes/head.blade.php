@@ -3,21 +3,16 @@
 <head>
     <title>Portfolio - Jelle Stekelenburg</title>
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="icon" type="image/png" href="{{asset('images/icon/favicon.png') }}" />
 
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script>
-        $(window).on('scroll', function () {
-            if($(window).scrollTop()) {
-                $('nav').addClass('bg');
-            }
-            else {
-                $('nav').removeClass('bg');
-            }
-        })
+    <link rel="stylesheet" href="{{asset('css/nav.css')}}">          {{-- Nav Styling --}}
+    <link rel="stylesheet" href="{{asset('css/footer.css')}}">       {{-- Footer Styling --}}
+    <link rel="stylesheet" href="{{asset('css/main.css')}}">         {{-- Main/index Styling --}}
+    <link rel="stylesheet" href="{{asset('css/pages.css')}}">      {{-- Main/index Styling --}}
+    {{--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> {{-- Animations --}}
 
-    </script>
+
+
 </head>
 
 <body>
