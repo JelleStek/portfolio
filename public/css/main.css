@@ -42,7 +42,7 @@ html {
 
 .head .text {
   position: absolute;
-  top: 40%;
+  top: 50%;
   transform: translateY(-50%);
   font-size: 1em;
   margin-left: 10%;

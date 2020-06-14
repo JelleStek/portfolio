@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{asset('css/footer.css')}}">       {{-- Footer Styling --}}
     <link rel="stylesheet" href="{{asset('css/main.css')}}">         {{-- Main/index Styling --}}
     <link rel="stylesheet" href="{{asset('css/pages.css')}}">      {{-- Main/index Styling --}}
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> {{-- Animations --}}
+    {{--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> {{-- Animations --}}
 
 
 
