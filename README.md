@@ -47,7 +47,7 @@ Resultaat tot nu toe:
 
 
 Bestanden:
-- [Moodbord voor kleren](https://xd.adobe.com/view/af63fad7-4372-4584-4e50-7731fd0b9444-d952/)
+- [Moodbord voor kleuren](https://xd.adobe.com/view/af63fad7-4372-4584-4e50-7731fd0b9444-d952/)
 
 > 14/06/2020 20:59
 
