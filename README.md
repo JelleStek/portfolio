@@ -45,4 +45,8 @@ Resultaat tot nu toe:
 
 ![Test_image_1](Assets/screen.jpg)
 
-> Jelle Stekelenburg 08/06/2020 15:03
+
+Bestanden:
+- [Moodbord voor kleren](https://xd.adobe.com/view/af63fad7-4372-4584-4e50-7731fd0b9444-d952/)
+
+> 14/06/2020 20:59
