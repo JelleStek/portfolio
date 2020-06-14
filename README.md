@@ -21,4 +21,4 @@ Eindresultaat
 
 ![Test_image_1](Assets/screen.png)
 
-> Jelle Stekelenburg 08/06/2020 15:03
+> 14/06/2020 19:50
