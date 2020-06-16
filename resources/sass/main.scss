@@ -4,10 +4,18 @@
 @import url("https://use.typekit.net/hrt6ppr.css");
 @import url('https://rsms.me/inter/inter.css');
 
+//var
+$blue: #155fff;
+$bg2: #090909;
 
+@font-face {
+    font-family: machina;
+    src: url('../../resources/fonts/NeueMachina-Ultrabold.woff');
+    font-weight: bold;
+}
 
 //colors
-.blue { color: #155fff !important; }
+.blue { color: $blue !important; }
 
 
 // main
@@ -18,7 +26,6 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    //font-family: forma-djr-text, sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: #000;
@@ -32,6 +39,9 @@ html {
 .big_spacing {
     height: 150px;
 }
+.bigger_spacing {
+    height: 250px;
+}
 
 
 //head
@@ -43,16 +53,15 @@ html {
 
     & .text {
         position: absolute;
-        top: 50%;
+        top: 40%;
         transform: translateY(-50%);
-        animation: text-in 1s;
         font-size: 1em;
         margin-left: 10%;
         max-width: 40%;
 
         & h1 {
             color: #fff;
-            font-family: forma-djr-text, sans-serif;
+            font-family: machina, sans-serif;
             font-weight: 700;
             font-style: normal;
             letter-spacing: 1px;
@@ -61,7 +70,7 @@ html {
 
         }
 
-        & a.p_buttom {
+        & a.p_button {
             background-color: #155fff;
             color: #fff;
             text-decoration: none;
@@ -97,10 +106,11 @@ html {
         padding-right: 5em;
         padding-top: 2em;
         animation: fade 1s;
+        max-height: 90vh;
 
         & img {
-            width: 90%;
             opacity: .8;
+            max-height: 90vh;
         }
     }
 }
@@ -109,43 +119,42 @@ html {
 
 .main-info {
     width: 100%;
-    background: #090909;
-    height: 530px;
+    background: $bg2;
 
     & .sidetext {
         font-family: 'Inter', sans-serif;
         float: left;
-        margin-left: 6%;
+        margin-left: 10%;
         color: #155fff;
 
         & p {
-            writing-mode: vertical-lr;
+            writing-mode: vertical-rl;
             font-weight: 700;
             text-transform: uppercase;
         }
     }
 
     & .text {
-        width: 80%;
+        width: 65%;
         margin: 0 auto;
 
         & h1 {
-            font-family: forma-djr-text, sans-serif;
+            font-family: machina, sans-serif;
             font-weight: 700;
             font-style: normal;
             letter-spacing: 1px;
             line-height: .9em;
             font-size: 3.5em;
-            max-width: 30%;
         }
     }
 
     .text2 {
-        width: 80%;
+        width: 65%;
         margin: 0 auto;
         font-family: forma-djr-text, sans-serif;
         font-size: 1.5em;
         grid-gap: 2em;
+        max-width: 70%;
 
         & p {
             max-width: 70%;
@@ -160,7 +169,7 @@ html {
     & .sidetext {
         font-family: 'Inter', sans-serif;
         float: left;
-        margin-left: 6%;
+        margin-left: 10%;
         color: #155fff;
 
         & p {
@@ -172,7 +181,7 @@ html {
 
     & h1 {
         color: #fff;
-        font-family: forma-djr-text, sans-serif;
+        font-family: machina, sans-serif;
         font-weight: 700;
         font-style: normal;
         letter-spacing: 1px;
@@ -181,16 +190,16 @@ html {
         margin-bottom: .2em;
     }
 
-    & .middle {
-        width: 80%;
+    & .width {
         margin: 0 auto;
+        width: 65%;
 
         & .grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             width: 100%;
             margin: 0 auto;
-            grid-gap: 9em;
+            grid-gap: 4em;
 
             & .prj {
                 width: 100%;
@@ -199,85 +208,43 @@ html {
                 border: 2px Solid #151515;
 
 
-                & .bg1 {
-                    height: 100%;
-                    width: 100%;
-                    background-image: url("../../public/img/latest/3.jpg");
-                    background-size: cover;
-                    background-position: center center;
-                }
-                & .bg2 {
-                    height: 100%;
-                    width: 100%;
-                    background-image: url("../../public/img/latest/3.jpg");
-                    background-size: cover;
-                    background-position: center center;
-                }
-                & .bg3 {
-                    height: 100%;
-                    width: 100%;
-                    background-image: url("../../public/img/latest/3.jpg");
-                    background-size: cover;
-                    background-position: center center;
-                }
+
                 & .bg {
+                    height: 100%;
+                    width: 100%;
+                    background-image: url("../../public/img/latest/projects.jpg");
+                    background-size: cover;
+                    background-position: center center;
 
-
-                    & h2 {
-                        color: #fff;
-                        font-family: forma-djr-text, sans-serif;
-                        font-weight: 700;
-                        font-style: normal;
-                        letter-spacing: 1px;
-                        text-align: center;
-                        line-height: .9em;
-                        position: relative;
-                        top: 10%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        font-size: 3.5em;
-                        opacity: .3;
-                    }
                     & h3 {
-                        font-family: 'Inter', sans-serif;
+                        font-family: machina, sans-serif;
                         position: relative;
-                        top: 35%;
+                        top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         text-align: center;
                         font-size: 2em;
-                        text-shadow: 0px 0px 9px rgba(0,0,0,.5);
-                    }
-                    & p {
-                        font-family: 'Inter', sans-serif;
-                        position: relative;
-                        top: 40%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        text-align: center;
-                        font-size: 1.3em;
-                        text-shadow: 0px 0px 9px rgba(0,0,0,.5);
-                        font-weight: 400;
+                        text-shadow: 0 0 9px rgba(0,0,0,.5);
                     }
 
-                    a  {
-                        display: block;
-                        background: #151515;
-                        position: relative;
-                        top: 70%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        text-align: center;
-                        color: #fff;
-                        text-decoration: none;
-                        padding: 20px 50px;
-                        width: 30%;
-                        transition: .5s;
-                        box-shadow: 0 0 10px rgba(0,0,0,.5);
-                        font-family: 'Inter', sans-serif;
-                        &:hover {
-                            box-shadow: 0 0 10px rgba(0,0,0,.8);
-                            transition: .5s;
+                    .next_button {
+                        height: 100%;
+                        width: 100%;
+
+                        a.next {
+                            display: block;
+                            width: 50px;
+                            height: 50px;
+                            position: relative;
+                            top: 80%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+
+                            & img {
+                                display: block;
+                                width: 50px;
+                                height: 50px;
+                            }
                         }
                     }
                 }
@@ -288,6 +255,230 @@ html {
 
 
 
-.test {
-    height: 100vh;
+
+.photo {
+    width: 100%;
+    height: 600px;
+    background-image: url("../../public/img/photo.jpg");
+    background-position: center center;
+
+    & h2 {
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: machina, sans-serif;
+        font-size: 3em;
+    }
+}
+
+.contact {
+
+    & .sidetext {
+        font-family: 'Inter', sans-serif;
+        float: left;
+        margin-left: 10%;
+        color: #155fff;
+
+        & p {
+            writing-mode: vertical-lr;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+
+    & .heading {
+        width: 65%;
+        margin: 0 auto;
+
+        & h1 {
+            color: #fff;
+            font-family: machina, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1px;
+            line-height: .9em;
+            font-size: 3em;
+            margin-bottom: .56em;
+        }
+    }
+    & .width {
+        width: 65%;
+        margin: 0 auto;
+
+        & .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+
+            & .left {
+                & p {
+                    font-family: 'inter', sans-serif;
+
+                    &.b {
+                        font-size: 1.3em;
+                    }
+
+                    & a {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            & .right {
+
+                & form {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    width: 80%;
+                    grid-gap: 1em;
+
+                    & input, textarea {
+                        font-family: 'inter', sans-serif;
+                        background: rgba(0,0,0,0);
+                        border-bottom: 1px solid $blue;
+                        border-left: none;
+                        border-right: none;
+                        border-top: none;
+                        padding: .4em 0;
+                        color: #fff;
+                        font-size: 1.2em;
+                        outline: none;
+                        max-height: 100px;
+                        max-width: 100%;
+                        min-width: 100%;
+                        &::placeholder {
+                            font-family: machina, sans-serif;
+                        }
+                    }
+                    & textarea {
+                        min-height: 100px;
+                    }
+
+                    & button {
+                        width: 50%;
+                        padding: 10px 0;
+                        font-family: machina, sans-serif;
+                        background: #155fff;
+                        color: #fff;
+                        border: none;
+                        font-size: 1.2em;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//1300 pixels
+@media only screen and (max-width: 1300px) {
+
+    // head img weg en text breeder
+    .head {
+
+        .text {
+            max-width: 80%;
+        }
+
+        & .img {
+            display: none;
+        }
+    }
+
+    //info text breeder
+    .main-info .text2, .main-info .text2 p  {
+        max-width: 100%;
+    }
+
+    //projects grid naar 2 - 1frs
+    .projects .width .grid {
+        grid-template-columns: 1fr 1fr;
+
+        & .pmr {
+            display: none;
+        }
+    }
+}
+
+//1100 pixels
+@media only screen and (max-width: 1100px) {
+    //sidetext weg
+    .sidetext {
+     display: none;
+    }
+
+    .head {
+
+        .text {
+            max-width: 90%;
+            margin-left: 5%;
+            display: block;
+        }
+
+        & .img {
+            display: none;
+        }
+    }
+
+    //main_info breeder naar 90%
+    .main-info .text, .main-info .text2, .main-info .text2 p  {
+        max-width: 100%;
+        width: 90%;
+    }
+
+    //projects width 90%
+    .projects .width {
+        width: 90%;
+    }
+
+    //contact width 90%
+    .contact .width {
+        width: 90%;
+    }
+    .contact .heading {
+        width: 90%;
+    }
+}
+
+//800 pixels
+@media only screen and (max-width: 800px) {
+
+    .contact .width .grid .right form {
+        width: 90%;
+    }
+
+    .contact .width .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+//650 pixels
+@media only screen and (max-width: 650px) {
+
+    //header netjes gemaakt, buttons breeder
+    .head .text {
+        top: 25%;
+        font-size: .8em;
+
+        & a.p_button {
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+        & a.cv_button {
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    .projects .width .grid {
+        grid-template-columns: 1fr;
+    }
 }

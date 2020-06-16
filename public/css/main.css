@@ -1,4 +1,10 @@
-@import url(https://use.typekit.net/hrt6ppr.css);@import url(https://rsms.me/inter/inter.css);.blue {
+@import url(https://use.typekit.net/hrt6ppr.css);@import url(https://rsms.me/inter/inter.css);@font-face {
+  font-family: machina;
+  src: url(/fonts/NeueMachina-Ultrabold.woff?e678a29b69d356830e801d0e13563892);
+  font-weight: bold;
+}
+
+.blue {
   color: #155fff !important;
 }
 
@@ -24,6 +30,10 @@ html {
   height: 150px;
 }
 
+.bigger_spacing {
+  height: 250px;
+}
+
 .head {
   height: 100vh;
   width: 100%;
@@ -32,10 +42,8 @@ html {
 
 .head .text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
-  -webkit-animation: text-in 1s;
-          animation: text-in 1s;
   font-size: 1em;
   margin-left: 10%;
   max-width: 40%;
@@ -43,7 +51,7 @@ html {
 
 .head .text h1 {
   color: #fff;
-  font-family: forma-djr-text, sans-serif;
+  font-family: machina, sans-serif;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 1px;
@@ -51,7 +59,7 @@ html {
   font-size: 4em;
 }
 
-.head .text a.p_buttom {
+.head .text a.p_button {
   background-color: #155fff;
   color: #fff;
   text-decoration: none;
@@ -61,7 +69,7 @@ html {
   font-family: "Inter", sans-serif;
 }
 
-.head .text a.p_buttom:hover {
+.head .text a.p_button:hover {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
   transition: 0.5s;
   opacity: 0.8;
@@ -88,54 +96,54 @@ html {
   padding-top: 2em;
   -webkit-animation: fade 1s;
           animation: fade 1s;
+  max-height: 90vh;
 }
 
 .head .img img {
-  width: 90%;
   opacity: 0.8;
+  max-height: 90vh;
 }
 
 .main-info {
   width: 100%;
   background: #090909;
-  height: 530px;
 }
 
 .main-info .sidetext {
   font-family: "Inter", sans-serif;
   float: left;
-  margin-left: 6%;
+  margin-left: 10%;
   color: #155fff;
 }
 
 .main-info .sidetext p {
-  -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .main-info .text {
-  width: 80%;
+  width: 65%;
   margin: 0 auto;
 }
 
 .main-info .text h1 {
-  font-family: forma-djr-text, sans-serif;
+  font-family: machina, sans-serif;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 1px;
   line-height: 0.9em;
   font-size: 3.5em;
-  max-width: 30%;
 }
 
 .main-info .text2 {
-  width: 80%;
+  width: 65%;
   margin: 0 auto;
   font-family: forma-djr-text, sans-serif;
   font-size: 1.5em;
   grid-gap: 2em;
+  max-width: 70%;
 }
 
 .main-info .text2 p {
@@ -150,7 +158,7 @@ html {
 .projects .sidetext {
   font-family: "Inter", sans-serif;
   float: left;
-  margin-left: 6%;
+  margin-left: 10%;
   color: #155fff;
 }
 
@@ -163,7 +171,7 @@ html {
 
 .projects h1 {
   color: #fff;
-  font-family: forma-djr-text, sans-serif;
+  font-family: machina, sans-serif;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 1px;
@@ -172,112 +180,284 @@ html {
   margin-bottom: 0.2em;
 }
 
-.projects .middle {
-  width: 80%;
+.projects .width {
   margin: 0 auto;
+  width: 65%;
 }
 
-.projects .middle .grid {
+.projects .width .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
   margin: 0 auto;
-  grid-gap: 9em;
+  grid-gap: 4em;
 }
 
-.projects .middle .grid .prj {
+.projects .width .grid .prj {
   width: 100%;
   margin: 0 auto;
   height: 600px;
   border: 2px Solid #151515;
 }
 
-.projects .middle .grid .prj .bg1 {
+.projects .width .grid .prj .bg {
   height: 100%;
   width: 100%;
-  background-image: url(/images/3.jpg?757af440e41f9e025db1d07f80158cae);
+  background-image: url(/images/projects.jpg?6aae32f4c44922d7a3e89470ad8ca90e);
   background-size: cover;
   background-position: center center;
 }
 
-.projects .middle .grid .prj .bg2 {
-  height: 100%;
-  width: 100%;
-  background-image: url(/images/3.jpg?757af440e41f9e025db1d07f80158cae);
-  background-size: cover;
-  background-position: center center;
-}
-
-.projects .middle .grid .prj .bg3 {
-  height: 100%;
-  width: 100%;
-  background-image: url(/images/3.jpg?757af440e41f9e025db1d07f80158cae);
-  background-size: cover;
-  background-position: center center;
-}
-
-.projects .middle .grid .prj .bg h2 {
-  color: #fff;
-  font-family: forma-djr-text, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: 1px;
-  text-align: center;
-  line-height: 0.9em;
+.projects .width .grid .prj .bg h3 {
+  font-family: machina, sans-serif;
   position: relative;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3.5em;
-  opacity: 0.3;
-}
-
-.projects .middle .grid .prj .bg h3 {
-  font-family: "Inter", sans-serif;
-  position: relative;
-  top: 35%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 2em;
-  text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
 }
 
-.projects .middle .grid .prj .bg p {
-  font-family: "Inter", sans-serif;
-  position: relative;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 1.3em;
-  text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.5);
-  font-weight: 400;
+.projects .width .grid .prj .bg .next_button {
+  height: 100%;
+  width: 100%;
 }
 
-.projects .middle .grid .prj .bg a {
+.projects .width .grid .prj .bg .next_button a.next {
   display: block;
-  background: #151515;
+  width: 50px;
+  height: 50px;
   position: relative;
-  top: 70%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.projects .width .grid .prj .bg .next_button a.next img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.photo {
+  width: 100%;
+  height: 600px;
+  background-image: url(/images/photo.jpg?ee150478f5fe917194ceb41a918e2b79);
+  background-position: center center;
+}
+
+.photo h2 {
+  display: block;
   text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: machina, sans-serif;
+  font-size: 3em;
+}
+
+.contact .sidetext {
+  font-family: "Inter", sans-serif;
+  float: left;
+  margin-left: 10%;
+  color: #155fff;
+}
+
+.contact .sidetext p {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact .heading {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.contact .heading h1 {
+  color: #fff;
+  font-family: machina, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 0.9em;
+  font-size: 3em;
+  margin-bottom: 0.56em;
+}
+
+.contact .width {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.contact .width .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.contact .width .grid .left p {
+  font-family: "inter", sans-serif;
+}
+
+.contact .width .grid .left p.b {
+  font-size: 1.3em;
+}
+
+.contact .width .grid .left p a {
   color: #fff;
   text-decoration: none;
-  padding: 20px 50px;
-  width: 30%;
-  transition: 0.5s;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-family: "Inter", sans-serif;
 }
 
-.projects .middle .grid .prj .bg a:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  transition: 0.5s;
+.contact .width .grid .right form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 80%;
+  grid-gap: 1em;
 }
 
-.test {
-  height: 100vh;
+.contact .width .grid .right form input,
+.contact .width .grid .right form textarea {
+  font-family: "inter", sans-serif;
+  background: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #155fff;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 0.4em 0;
+  color: #fff;
+  font-size: 1.2em;
+  outline: none;
+  max-height: 100px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.contact .width .grid .right form input::-moz-placeholder, .contact .width .grid .right form textarea::-moz-placeholder {
+  font-family: machina, sans-serif;
+}
+
+.contact .width .grid .right form input:-ms-input-placeholder, .contact .width .grid .right form textarea:-ms-input-placeholder {
+  font-family: machina, sans-serif;
+}
+
+.contact .width .grid .right form input::-ms-input-placeholder, .contact .width .grid .right form textarea::-ms-input-placeholder {
+  font-family: machina, sans-serif;
+}
+
+.contact .width .grid .right form input::placeholder,
+.contact .width .grid .right form textarea::placeholder {
+  font-family: machina, sans-serif;
+}
+
+.contact .width .grid .right form textarea {
+  min-height: 100px;
+}
+
+.contact .width .grid .right form button {
+  width: 50%;
+  padding: 10px 0;
+  font-family: machina, sans-serif;
+  background: #155fff;
+  color: #fff;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+  .head .text {
+    max-width: 80%;
+  }
+
+  .head .img {
+    display: none;
+  }
+
+  .main-info .text2,
+  .main-info .text2 p {
+    max-width: 100%;
+  }
+
+  .projects .width .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projects .width .grid .pmr {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .sidetext {
+    display: none;
+  }
+
+  .head .text {
+    max-width: 90%;
+    margin-left: 5%;
+    display: block;
+  }
+
+  .head .img {
+    display: none;
+  }
+
+  .main-info .text,
+  .main-info .text2,
+  .main-info .text2 p {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .projects .width {
+    width: 90%;
+  }
+
+  .contact .width {
+    width: 90%;
+  }
+
+  .contact .heading {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact .width .grid .right form {
+    width: 90%;
+  }
+
+  .contact .width .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .head .text {
+    top: 25%;
+    font-size: 0.8em;
+  }
+
+  .head .text a.p_button {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .head .text a.cv_button {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .projects .width .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
