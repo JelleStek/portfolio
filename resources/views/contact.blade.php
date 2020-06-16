@@ -1,24 +1,24 @@
 @extends('layouts.master')
 
-<nav>
-    <div class="grid">
-        <div class="left">
-            <h1>JS<span class="blue">.</span></h1>
-        </div>
-        <div class="right">
-            <ul>
-                <a href="/"><li>Home</li></a>
-                <a href="/about"><li>About</li></a>
-                <a href="/portfolio"><li>Portfolio</li></a>
-                <a href="/contact" class="active"><li>Contact</li></a>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="line_nav"></div>
-{{--end nav--}}
-
 @section('main')
+
+    <nav>
+        <div class="grid">
+            <div class="left">
+                <h1>JS<span class="blue">.</span></h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <a href="/"><li>Home</li></a>
+                    <a href="/about"><li>About</li></a>
+                    <a href="/portfolio"><li>Portfolio</li></a>
+                    <a href="/contact" class="active"><li>Contact</li></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="line_nav"></div>
+    {{--end nav--}}
 
     <div class="contact__spacing"></div>
 

@@ -14,4 +14,5 @@ const mix = require('laravel-mix');
 mix.sass('resources/sass/nav.scss', 'public/css')
     .sass('resources/sass/footer.scss', 'public/css')
     .sass('resources/sass/main.scss', 'public/css')
-    .sass('resources/sass/pages.scss', 'public/css');
+    .sass('resources/sass/pages.scss', 'public/css')
+    .sass('resources/sass/cases.scss', 'public/css');

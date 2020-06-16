@@ -42,7 +42,7 @@ html {
 
 .head .text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   font-size: 1em;
   margin-left: 10%;
@@ -59,7 +59,7 @@ html {
   font-size: 4em;
 }
 
-.head .text a.p_buttom {
+.head .text a.p_button {
   background-color: #155fff;
   color: #fff;
   text-decoration: none;
@@ -69,7 +69,7 @@ html {
   font-family: "Inter", sans-serif;
 }
 
-.head .text a.p_buttom:hover {
+.head .text a.p_button:hover {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
   transition: 0.5s;
   opacity: 0.8;
@@ -96,17 +96,17 @@ html {
   padding-top: 2em;
   -webkit-animation: fade 1s;
           animation: fade 1s;
+  max-height: 90vh;
 }
 
 .head .img img {
-  width: 90%;
   opacity: 0.8;
+  max-height: 90vh;
 }
 
 .main-info {
   width: 100%;
   background: #090909;
-  height: 530px;
 }
 
 .main-info .sidetext {
@@ -135,7 +135,6 @@ html {
   letter-spacing: 1px;
   line-height: 0.9em;
   font-size: 3.5em;
-  max-width: 40%;
 }
 
 .main-info .text2 {
@@ -144,6 +143,7 @@ html {
   font-family: forma-djr-text, sans-serif;
   font-size: 1.5em;
   grid-gap: 2em;
+  max-width: 70%;
 }
 
 .main-info .text2 p {
@@ -180,12 +180,12 @@ html {
   margin-bottom: 0.2em;
 }
 
-.projects .middle {
-  width: 65%;
+.projects .width {
   margin: 0 auto;
+  width: 65%;
 }
 
-.projects .middle .grid {
+.projects .width .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
@@ -193,14 +193,14 @@ html {
   grid-gap: 4em;
 }
 
-.projects .middle .grid .prj {
+.projects .width .grid .prj {
   width: 100%;
   margin: 0 auto;
   height: 600px;
   border: 2px Solid #151515;
 }
 
-.projects .middle .grid .prj .bg {
+.projects .width .grid .prj .bg {
   height: 100%;
   width: 100%;
   background-image: url(/images/projects.jpg?6aae32f4c44922d7a3e89470ad8ca90e);
@@ -208,7 +208,7 @@ html {
   background-position: center center;
 }
 
-.projects .middle .grid .prj .bg h3 {
+.projects .width .grid .prj .bg h3 {
   font-family: machina, sans-serif;
   position: relative;
   top: 50%;
@@ -219,12 +219,12 @@ html {
   text-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
 }
 
-.projects .middle .grid .prj .bg .next_button {
+.projects .width .grid .prj .bg .next_button {
   height: 100%;
   width: 100%;
 }
 
-.projects .middle .grid .prj .bg .next_button a.next {
+.projects .width .grid .prj .bg .next_button a.next {
   display: block;
   width: 50px;
   height: 50px;
@@ -234,7 +234,7 @@ html {
   transform: translate(-50%, -50%);
 }
 
-.projects .middle .grid .prj .bg .next_button a.next img {
+.projects .width .grid .prj .bg .next_button a.next img {
   display: block;
   width: 50px;
   height: 50px;
@@ -244,6 +244,7 @@ html {
   width: 100%;
   height: 600px;
   background-image: url(/images/photo.jpg?ee150478f5fe917194ceb41a918e2b79);
+  background-position: center center;
 }
 
 .photo h2 {
@@ -315,7 +316,6 @@ html {
   display: grid;
   grid-template-columns: 1fr;
   width: 80%;
-  margin: 0 auto;
   grid-gap: 1em;
 }
 
@@ -332,8 +332,8 @@ html {
   font-size: 1.2em;
   outline: none;
   max-height: 100px;
-  max-width: 550px;
-  min-width: 550px;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 .contact .width .grid .right form input::-moz-placeholder, .contact .width .grid .right form textarea::-moz-placeholder {
@@ -366,5 +366,98 @@ html {
   border: none;
   font-size: 1.2em;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+  .head .text {
+    max-width: 80%;
+  }
+
+  .head .img {
+    display: none;
+  }
+
+  .main-info .text2,
+  .main-info .text2 p {
+    max-width: 100%;
+  }
+
+  .projects .width .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projects .width .grid .pmr {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .sidetext {
+    display: none;
+  }
+
+  .head .text {
+    max-width: 90%;
+    margin-left: 5%;
+    display: block;
+  }
+
+  .head .img {
+    display: none;
+  }
+
+  .main-info .text,
+  .main-info .text2,
+  .main-info .text2 p {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .projects .width {
+    width: 90%;
+  }
+
+  .contact .width {
+    width: 90%;
+  }
+
+  .contact .heading {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact .width .grid .right form {
+    width: 90%;
+  }
+
+  .contact .width .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .head .text {
+    top: 25%;
+    font-size: 0.8em;
+  }
+
+  .head .text a.p_button {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .head .text a.cv_button {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .projects .width .grid {
+    grid-template-columns: 1fr;
+  }
 }
 

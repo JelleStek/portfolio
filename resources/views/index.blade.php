@@ -1,31 +1,32 @@
 @extends('layouts.master')
-{{--nav--}}
-<nav>
-    <div class="grid">
-        <div class="left">
-            <h1>JS<span class="blue">.</span></h1>
-        </div>
-        <div class="right">
-            <ul>
-                <a href="/" class="active"><li>Home</li></a>
-                <a href="/about"><li>About</li></a>
-                <a href="/portfolio"><li>Portfolio</li></a>
-                <a href="/contact"><li>Contact</li></a>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="line_nav"></div>
-{{--end nav--}}
 
 @section('main')
+
+    {{--nav--}}
+    <nav>
+        <div class="grid">
+            <div class="left">
+                <h1>JS<span class="blue">.</span></h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <a href="/" class="active"><li>Home</li></a>
+                    <a href="/about"><li>About</li></a>
+                    <a href="/portfolio"><li>Portfolio</li></a>
+                    <a href="/contact"><li>Contact</li></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="line_nav"></div>
+    {{--end nav--}}
 
     {{--landing header--}}
     <div class="head">
         <div class="text" data-aos="fade-down">
             <h1>Hoi, Ik ben Jelle &mdash; een <span class="blue">Front-End</span> Developer in de regio Amsterdam.</h1>
             <div class="light_spacing"></div>
-            <a href="" class="p_buttom">Projecten</a>
+            <a href="" class="p_button">Projecten</a>
             <a href="{{asset('downloads/CV.pdf')}}" download class="cv_button"><img src="{{asset('images/icon/download.png')}}" alt="">Download CV</a>
         </div>
         <div class="img" data-aos="fade-left">
@@ -40,7 +41,7 @@
             <p class="" data-aos="fade-right">- About me</p>
         </div>
         <div class="text" data-aos="fade-down">
-            <h1>Wie ben ik en wat doe ik<span class="blue">.</span></h1>
+            <h1>Wie ben ik en<br> wat doe ik<span class="blue">.</span></h1>
         </div>
         <div class="light_spacing"></div>
         <div class="text2">
@@ -56,13 +57,13 @@
         <div class="sidetext">
             <p class="" data-aos="fade-right">- Latest projects</p>
         </div>
-        <div class="middle">
+        <div class="width">
             <h1 data-aos="fade-down">Mijn werk<span class="blue">.</span></h1>
             <div class="grid">
                 <div class="prj" data-aos="fade-right">
                     <div class="bg">
                         <h3>Portfolio<span class="blue">.</span></h3>
-                        <div class="next_button"><a href="" class="next"><img src="{{asset('images/icon/next.png')}}" alt=""></a></div>
+                        <div class="next_button"><a href="/case-portfolio" class="next"><img src="{{asset('images/icon/next.png')}}" alt=""></a></div>
                     </div>
                 </div>
                 <div class="prj" data-aos="fade-up">
@@ -71,7 +72,7 @@
                         <div class="next_button"><a href="" class="next"><img src="{{asset('images/icon/next.png')}}" alt=""></a></div>
                     </div>
                 </div>
-                <div class="prj" data-aos="fade-left">
+                <div class="prj pmr" data-aos="fade-left">
                     <div class="bg">
                         <h3>Coming Soon<span class="blue">.</span></h3>
                         <div class="next_button"><a href="" class="next"><img src="{{asset('images/icon/next.png')}}" alt=""></a></div>
@@ -103,6 +104,7 @@
                     <div class="light_spacing"></div>
                     <p>Tel: (+031) 6 24421363</p>
                     <p><a href="mailto:jelle@nwave.nl">Mail: Jelle@nwave.nl</a></p>
+                    <div class="light_spacing"></div>
                 </div>
                 <div class="right" data-aos="fade-left">
                     <form class="contact-form" action="{{asset('contactform.php')}}" method="post">

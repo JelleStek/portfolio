@@ -26,7 +26,6 @@ $bg2: #090909;
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    //font-family: forma-djr-text, sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: #000;
@@ -54,7 +53,7 @@ html {
 
     & .text {
         position: absolute;
-        top: 50%;
+        top: 40%;
         transform: translateY(-50%);
         font-size: 1em;
         margin-left: 10%;
@@ -71,7 +70,7 @@ html {
 
         }
 
-        & a.p_buttom {
+        & a.p_button {
             background-color: #155fff;
             color: #fff;
             text-decoration: none;
@@ -107,10 +106,11 @@ html {
         padding-right: 5em;
         padding-top: 2em;
         animation: fade 1s;
+        max-height: 90vh;
 
         & img {
-            width: 90%;
             opacity: .8;
+            max-height: 90vh;
         }
     }
 }
@@ -120,7 +120,6 @@ html {
 .main-info {
     width: 100%;
     background: $bg2;
-    height: 530px;
 
     & .sidetext {
         font-family: 'Inter', sans-serif;
@@ -146,7 +145,6 @@ html {
             letter-spacing: 1px;
             line-height: .9em;
             font-size: 3.5em;
-            max-width: 40%;
         }
     }
 
@@ -156,6 +154,7 @@ html {
         font-family: forma-djr-text, sans-serif;
         font-size: 1.5em;
         grid-gap: 2em;
+        max-width: 70%;
 
         & p {
             max-width: 70%;
@@ -191,9 +190,9 @@ html {
         margin-bottom: .2em;
     }
 
-    & .middle {
-        width: 65%;
+    & .width {
         margin: 0 auto;
+        width: 65%;
 
         & .grid {
             display: grid;
@@ -256,10 +255,12 @@ html {
 
 
 
+
 .photo {
     width: 100%;
     height: 600px;
     background-image: url("../../public/img/photo.jpg");
+    background-position: center center;
 
     & h2 {
         display: block;
@@ -333,7 +334,6 @@ html {
                     display: grid;
                     grid-template-columns: 1fr;
                     width: 80%;
-                    margin: 0 auto;
                     grid-gap: 1em;
 
                     & input, textarea {
@@ -348,8 +348,8 @@ html {
                         font-size: 1.2em;
                         outline: none;
                         max-height: 100px;
-                        max-width: 550px;
-                        min-width: 550px;
+                        max-width: 100%;
+                        min-width: 100%;
                         &::placeholder {
                             font-family: machina, sans-serif;
                         }
@@ -371,5 +371,114 @@ html {
                 }
             }
         }
+    }
+}
+
+//1300 pixels
+@media only screen and (max-width: 1300px) {
+
+    // head img weg en text breeder
+    .head {
+
+        .text {
+            max-width: 80%;
+        }
+
+        & .img {
+            display: none;
+        }
+    }
+
+    //info text breeder
+    .main-info .text2, .main-info .text2 p  {
+        max-width: 100%;
+    }
+
+    //projects grid naar 2 - 1frs
+    .projects .width .grid {
+        grid-template-columns: 1fr 1fr;
+
+        & .pmr {
+            display: none;
+        }
+    }
+}
+
+//1100 pixels
+@media only screen and (max-width: 1100px) {
+    //sidetext weg
+    .sidetext {
+     display: none;
+    }
+
+    .head {
+
+        .text {
+            max-width: 90%;
+            margin-left: 5%;
+            display: block;
+        }
+
+        & .img {
+            display: none;
+        }
+    }
+
+    //main_info breeder naar 90%
+    .main-info .text, .main-info .text2, .main-info .text2 p  {
+        max-width: 100%;
+        width: 90%;
+    }
+
+    //projects width 90%
+    .projects .width {
+        width: 90%;
+    }
+
+    //contact width 90%
+    .contact .width {
+        width: 90%;
+    }
+    .contact .heading {
+        width: 90%;
+    }
+}
+
+//800 pixels
+@media only screen and (max-width: 800px) {
+
+    .contact .width .grid .right form {
+        width: 90%;
+    }
+
+    .contact .width .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+//650 pixels
+@media only screen and (max-width: 650px) {
+
+    //header netjes gemaakt, buttons breeder
+    .head .text {
+        top: 25%;
+        font-size: .8em;
+
+        & a.p_button {
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+        & a.cv_button {
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    .projects .width .grid {
+        grid-template-columns: 1fr;
     }
 }
