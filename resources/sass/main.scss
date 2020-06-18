@@ -31,6 +31,10 @@ html {
     background-color: #000;
     color: #fff;
 }
+body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
 
 //spacing
 .light_spacing {
@@ -119,7 +123,7 @@ html {
 
 .main-info {
     width: 100%;
-    background: $bg2;
+    height: 530px;
 
     & .sidetext {
         font-family: 'Inter', sans-serif;
@@ -442,6 +446,10 @@ html {
     .contact .heading {
         width: 90%;
     }
+
+    .photo h2 {
+        font-size: 2em;
+    }
 }
 
 //800 pixels
@@ -480,5 +488,9 @@ html {
 
     .projects .width .grid {
         grid-template-columns: 1fr;
+    }
+
+    .projects {
+        margin-top: 10em;
     }
 }
