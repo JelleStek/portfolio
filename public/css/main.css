@@ -22,6 +22,11 @@ html {
   color: #fff;
 }
 
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 .light_spacing {
   height: 50px;
 }
@@ -106,11 +111,7 @@ html {
 
 .main-info {
   width: 100%;
-<<<<<<< HEAD
   height: 530px;
-=======
-  background: #090909;
->>>>>>> 18a2a0a8dfa8922efb6b34321edd3944c95763ac
 }
 
 .main-info .sidetext {
@@ -428,6 +429,10 @@ html {
   .contact .heading {
     width: 90%;
   }
+
+  .photo h2 {
+    font-size: 2em;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -462,6 +467,10 @@ html {
 
   .projects .width .grid {
     grid-template-columns: 1fr;
+  }
+
+  .projects {
+    margin-top: 10em;
   }
 }
 

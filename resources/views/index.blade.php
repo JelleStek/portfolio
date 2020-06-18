@@ -1,8 +1,5 @@
 @extends('layouts.master')
-<<<<<<< HEAD
 
-=======
->>>>>>> 18a2a0a8dfa8922efb6b34321edd3944c95763ac
 
 @section('main')
 
@@ -10,17 +7,8 @@
     <nav>
         <div class="grid">
             <div class="left">
-<<<<<<< HEAD
+
                 <h1>JS.</h1>
-            </div>
-            <div class="right">
-                <ul>
-                    <a href="" class="active"><li>Home</li></a>
-                    <a href=""><li>About</li></a>
-                    <a href=""><li>Portfolio</li></a>
-                    <a href=""><li>Contact</li></a>
-=======
-                <h1>JS<span class="blue">.</span></h1>
             </div>
             <div class="right">
                 <ul>
@@ -28,7 +16,7 @@
                     <a href="/about"><li>About</li></a>
                     <a href="/portfolio"><li>Portfolio</li></a>
                     <a href="/contact"><li>Contact</li></a>
->>>>>>> 18a2a0a8dfa8922efb6b34321edd3944c95763ac
+
                 </ul>
             </div>
         </div>
@@ -36,10 +24,7 @@
     <div class="line_nav"></div>
     {{--end nav--}}
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 18a2a0a8dfa8922efb6b34321edd3944c95763ac
     {{--landing header--}}
     <div class="head">
         <div class="text" data-aos="fade-down">
