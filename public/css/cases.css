@@ -1,0 +1,41 @@
+.case {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.case img {
+  max-width: 100%;
+}
+
+.case h1.case_head {
+  font-family: machina, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.5em;
+}
+
+.case p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.3em;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.case p a {
+  text-decoration: none;
+  color: #155fff;
+}
+
+.case .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.case .grid img {
+  width: 100%;
+  margin: 0 auto;
+}
+

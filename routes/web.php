@@ -16,3 +16,24 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/about', function () {
+    return view('about');
+});
+
+// Portfolio main
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
+//portfolio cases
+Route::get('/case-portfolio', function () {
+    return view('cases/portfolio');
+});
+
+
+
+
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
