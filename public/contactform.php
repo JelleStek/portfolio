@@ -6,10 +6,10 @@ if (isset($_POST['submit'])) {
     $message = $_POST['afd3'];
 
     $mailTo = "Jelle@nwave.nl";
-    $headers = "Mail";
+    $headers = "Mail van ".$mailFrom;
 
     mail($mailTo, "Mail", $message, $headers);
-    header("Locations: / ");
+    header("Locations: https://jellestekelenburg.nl/");
 }
 
 
