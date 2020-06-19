@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
     $headers = "Mail";
 
     mail($mailTo, "Mail", $message, $headers);
-    //header("Locations: ");
+    header("Locations: / ");
 }
 
 
