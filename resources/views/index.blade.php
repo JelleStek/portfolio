@@ -8,7 +8,8 @@
         <div class="grid">
             <div class="left">
 
-                <h1>JS.</h1>
+                <h1>JS<span class="blue">.</span></h1>
+
             </div>
             <div class="right">
                 <ul>
