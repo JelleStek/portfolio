@@ -9,6 +9,7 @@
             <div class="left">
 
                 <h1>JS<span class="blue">.</span></h1>
+
             </div>
             <div class="right">
                 <ul>
