@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
     $headers = "Mail van ".$mailFrom;
 
     mail($mailTo, "Mail", $message, $headers);
-    header("Locations: https://jellestekelenburg.nl/");
+    header("Location: https://jellestekelenburg.nl/");
 }
 
 
