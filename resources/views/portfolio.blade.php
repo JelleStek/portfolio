@@ -30,37 +30,37 @@
         <div class="width">
             <h1 data-aos="fade-down">Mijn werk<span class="blue">.</span></h1>
             <div class="grid">
-                <div class="prj" data-aos="fade-right">
+                <div class="prj">
                     <div class="bg">
                         <h3>Portfolio<span class="blue">.</span></h3>
                         <div class="next_button"><a href="/case-portfolio" class="next"><img src="{{asset('images/icon/next.png')}}" alt=""></a></div>
                     </div>
                 </div>
-                <div class="prj" data-aos="fade-up">
+                <div class="prj" >
                     <div class="bg">
                         <h3>Coming Soon<span class="blue">.</span></h3>
                         <div class="next_button"><a href="" class="next"><img src="{{asset('images/icon/next.png')}}" alt=""></a></div>
                     </div>
                 </div>
-                <div class="prj" data-aos="fade-left">
+                <div class="prj" >
                     <div class="bg">
                         <h3>Coming Soon<span class="blue">.</span></h3>
                         <div class="next_button"><a href="" class="next"><img src="{{asset('images/icon/next.png')}}" alt=""></a></div>
                     </div>
                 </div>
-                <div class="prj" data-aos="fade-right">
+                <div class="prj">
                     <div class="bg">
                         <h3>Coming Soon<span class="blue">.</span></h3>
                         <div class="next_button"><a href="" class="next"><img src="{{asset('images/icon/next.png')}}" alt=""></a></div>
                     </div>
                 </div>
-                <div class="prj" data-aos="fade-up">
+                <div class="prj">
                     <div class="bg">
                         <h3>Coming Soon<span class="blue">.</span></h3>
                         <div class="next_button"><a href="" class="next"><img src="{{asset('images/icon/next.png')}}" alt=""></a></div>
                     </div>
                 </div>
-                <div class="prj" data-aos="fade-left">
+                <div class="prj">
                     <div class="bg">
                         <h3>Coming Soon<span class="blue">.</span></h3>
                         <div class="next_button"><a href="" class="next"><img src="{{asset('images/icon/next.png')}}" alt=""></a></div>
@@ -69,5 +69,7 @@
             </div>
         </div>
     </div>
+
+    <div class="big_spacing"></div>
 
 @endsection
