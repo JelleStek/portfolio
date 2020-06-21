@@ -1,0 +1,104 @@
+footer {
+    height: 250px;
+
+
+    & .width {
+        width: 80%;
+        margin: 0 auto;
+        min-height: 199px;
+
+        & h2 {
+            font-family: machina, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 3em;
+        }
+        .grid {
+            grid-template-columns: 1fr 1fr 50%;
+            display: grid;
+
+            & .link_one, .link_two {
+                display: block;
+                a {
+                    color: #cecece;
+                    font-size: 1.2em;
+                    transition: .5s;
+                    display: block;
+                    text-decoration: none;
+                    font-family: 'Inter', sans-serif;
+                    width: auto;
+
+                    &:hover {
+                        transition: .5s;
+                        color: #155fff;
+                    }
+                }
+            }
+        }
+    }
+    & .line {
+        height: 1px;
+        width: 100%;
+        background-color: #636b6f;
+        margin-top: 80px;
+        z-index: 10000;
+    }
+
+    & .footer_under {
+        height: 50px;
+        display: block;
+
+        & .grid {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            & .logo {
+                text-align: left;
+                padding-left: 3em;
+                font-family: machina, sans-serif;
+
+                h3 {
+                    line-height: 50px;
+                }
+            }
+
+            & .copyright {
+                text-align: center;
+
+                & p {
+                 font-family: 'Inter', sans-serif;
+                 font-size: .8em;
+                    line-height: 50px;
+                }
+            }
+            & .by {
+                text-align: right;
+                padding-right: 3em;
+                font-family: machina, sans-serif;
+                & h3 {
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    footer {
+        & .width {
+
+            & .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        & .line, .footer_under {
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 700px) {
+    footer {
+        display: none;
+    }
+}

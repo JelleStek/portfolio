@@ -31,7 +31,7 @@
         <div class="text" data-aos="fade-down">
             <h1>Hoi, Ik ben Jelle &mdash; een <span class="blue">Front-End</span> Developer in de regio Amsterdam.</h1>
             <div class="light_spacing"></div>
-            <a href="" class="p_button">Projecten</a>
+            <a href="/portfolio" class="p_button">Projecten</a>
             <a href="{{asset('downloads/CV.pdf')}}" download class="cv_button"><img src="{{asset('images/icon/download.png')}}" alt="">Download CV</a>
         </div>
         <div class="img" data-aos="fade-left">
@@ -51,14 +51,14 @@
         <div class="light_spacing"></div>
         <div class="text2">
             <div class="about1" data-aos="fade-up">
-                <p>Ik ben Jelle Stekelenburg, een 18 jarige Front-end developer uit Schagen. Ik hou ervan om een moeilijke opdracht te krijgen en kijk er erg naar uit om stage te lopen. In mijn stage periode hoop ik op een leuk bedrijf wat mij gaat helpen een betere developer te worden en goed te worden in mijn vak.
+                <p>Hoi, Ik ben Jelle Stekelenburg, een 18 jarige gemotiveerde Front-End Developer uit Schagen. Ik volg de opleiding Mediadeveloper op het Mediacollege Amsterdam waar ik leer progammeren. Momenteel progammeer ik veel met de framework Laravel, waar deze website ook in is gemaakt. En probeer ik mezelf steeds meer te leren, door middel van stage of eigen initiatief<span class="blue">.</span>
                 </p>
             </div>
         </div>
         <div class="big_spacing"></div>
     </div>
     <div class="big_spacing"></div>
-    <div class="projects">
+    <div class="projects pmain">
         <div class="sidetext">
             <p class="" data-aos="fade-right">- Latest projects</p>
         </div>
