@@ -54,9 +54,12 @@ Deze week gedaan:
 Resultaat tot nu toe:
 
 Desktop
+
 ![Test_image_1](Assets/screen.png)
 
+
 Mobile
+
 ![Test_image_1](Assets/mobile.png)
 
 
