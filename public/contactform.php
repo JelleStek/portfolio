@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
 
     $mailTo = "Jelle@nwave.nl";
     $headers = "Mail van ".$name;
-    $txt = "Email: ".$mailFrom."\n\n".$message
+    $txt = "Email: ".$mailFrom."\n\n".$message;
 
     mail($mailTo, "Mail", $txt, $headers);
     header("Location: https://jellestekelenburg.nl/");
