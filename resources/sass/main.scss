@@ -14,6 +14,10 @@ $bg2: #090909;
     font-weight: bold;
 }
 
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
 //colors
 .blue { color: $blue !important; }
 
@@ -496,9 +500,19 @@ body::-webkit-scrollbar-thumb {
         }
     }
 
+    .main-info .about1 p {
+        max-width: 100%;
+    }
+
+    .main-info .about1 {
+        width: 90%;
+        max-width: 100%;
+    }
+
     .projects .width .grid {
         grid-template-columns: 1fr;
     }
+
 
     .pmain {
         margin-top: 18em;
