@@ -23,6 +23,18 @@ body {
   color: #fff;
 }
 
+body::-webkit-scrollbar {
+  width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
 .light_spacing {
   height: 50px;
 }
@@ -108,6 +120,7 @@ body {
 .main-info {
   width: 100%;
   height: 530px;
+  display: block;
 }
 
 .main-info .sidetext {
@@ -138,7 +151,7 @@ body {
   font-size: 3.5em;
 }
 
-.main-info .text2 {
+.main-info .about1 {
   width: 65%;
   margin: 0 auto;
   font-family: forma-djr-text, sans-serif;
@@ -146,7 +159,7 @@ body {
   max-width: 70%;
 }
 
-.main-info .text2 p {
+.main-info .about1 p {
   max-width: 70%;
 }
 
