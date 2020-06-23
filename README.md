@@ -38,17 +38,31 @@ Deze week gedaan:
     * /Portfolio
     * /Contact
 
-    
+#### Week 3
+Deze week ben ik voornamelijk bezig geweest met het responsive maken van de website, de index is volledig responsive, net als de about page, de portfolio page en de contact page, het doel is volgende week de eerste case geschreven te hebben. zodat de website volledig klaar is voor gebruik en geen bugs zoals non-responsive design bevat. Sinds deze week staat de website ook live op: https://jellestekelenburg.nl/ door middel van Laravel Forge en DigitalOcean. Ik heb met mijn docent back-end developent gebeld voor hulp omdat de website op het begin niet reageerde, nu dus wel. 
+
+Deze week gedaan:
+* Scroll bar styling veranderd.
+* Index responsive gemaakt.
+    * Net als /about, /portfolio en /contact
+* Begonnen aan eerste case, deze wil ik volgende week af hebben.
+* .idea folder verwijderd.
+* bugs gefixt in verband met contactform, deze werkt nu.
+* Design op index page paar tweaks gegeven qua styling.
+* Website live gezet
 
 Resultaat tot nu toe:
 
+Desktop
 ![Test_image_1](Assets/screen.png)
 
+Mobile
+![Test_image_1](Assets/mobile.png)
 
 
 Bestanden:
 - [Styleboard voor kleuren](https://xd.adobe.com/view/af63fad7-4372-4584-4e50-7731fd0b9444-d952/)
 
-> 14/06/2020 20:59
+> 23/06/2020 20:31
 
 
