@@ -6,36 +6,66 @@
   height: 200px;
 }
 
-.skills {
+.stage {
   height: 600px;
   width: 100%;
 }
 
-.skills .sidetext {
+.stage .sidetext {
   font-family: "Inter", sans-serif;
   float: left;
   margin-left: 10%;
   color: #155fff;
 }
 
-.skills .sidetext p {
+.stage .sidetext p {
   -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.skills .width {
+.stage .width {
   width: 65%;
   margin: 0 auto;
 }
 
-.skills .width h1 {
+.stage .width h1 {
   font-family: machina, sans-serif;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 1px;
   line-height: 0.9em;
   font-size: 3.5em;
+}
+
+.stage .width .text {
+  font-family: forma-djr-text, sans-serif;
+  font-size: 1.5em;
+}
+
+.stage .width .text p {
+  max-width: 70%;
+}
+
+@media only screen and (max-width: 650px) {
+  .stage .width {
+    width: 90%;
+  }
+
+  .stage .width .text p {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .stage .width .text {
+    width: 90%;
+    max-width: 100%;
+    font-size: 1.3em;
+  }
+
+  .amr {
+    display: none;
+  }
 }
 

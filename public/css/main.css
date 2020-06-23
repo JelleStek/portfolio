@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #000;
+  background: rgba(0, 0, 0, 0);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -49,6 +49,10 @@ body::-webkit-scrollbar-thumb {
 
 .bigger_spacing {
   height: 250px;
+}
+
+.biggest_spacing {
+  height: 300px;
 }
 
 .head {
@@ -487,6 +491,7 @@ body::-webkit-scrollbar-thumb {
   .main-info .about1 {
     width: 90%;
     max-width: 100%;
+    font-size: 1.3em;
   }
 
   .projects .width .grid {
