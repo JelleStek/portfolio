@@ -6,3 +6,34 @@
     height: 200px;
 }
 
+.skills {
+    height: 600px;
+    width: 100%;
+
+    & .sidetext {
+        font-family: 'Inter', sans-serif;
+        float: left;
+        margin-left: 10%;
+        color: #155fff;
+
+        & p {
+            writing-mode: vertical-lr;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+
+    & .width {
+        width: 65%;
+        margin: 0 auto;
+
+        & h1 {
+            font-family: machina, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1px;
+            line-height: .9em;
+            font-size: 3.5em;
+        }
+    }
+}
