@@ -6,7 +6,7 @@
     height: 200px;
 }
 
-.skills {
+.stage {
     height: 600px;
     width: 100%;
 
@@ -35,5 +35,61 @@
             line-height: .9em;
             font-size: 3.5em;
         }
+
+        .text {
+            font-family: forma-djr-text, sans-serif;
+            font-size: 1.5em;
+
+            & p {
+                max-width: 70%;
+            }
+        }
+
+        & a.cv_button {
+            color: #fff;
+            text-decoration: none;
+            margin-top: 6em;
+            font-family: 'Inter', sans-serif;
+
+            & img {
+                height: 20px;
+                padding-right: .6em;
+                vertical-align: middle;
+                margin: 0;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+
+    .stage .width {
+        width: 90%;
+
+        & a.cv_button {
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            padding: 20px 50px;
+            border-radius: 5%;
+            background: #f2f2f2;
+            color: #000;
+        }
+    }
+
+    .stage .width .text p {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .stage .width .text {
+        width: 90%;
+        max-width: 100%;
+        font-size: 1.3em;
+    }
+    .amr {
+        display: none;
     }
 }

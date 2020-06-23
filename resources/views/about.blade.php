@@ -23,8 +23,7 @@
 
     <div class="main-info">
         <div class="big_spacing"></div>
-        <div class="big_spacing"></div>
-        <div class="big_spacing"></div>
+        <div class="big_spacing amr"></div>
         <div class="sidetext">
             <p class="" >- About me</p>
         </div>
@@ -40,18 +39,24 @@
     </div>
 
 
-    <div class="big_spacing"></div>
-    <div class="big_spacing"></div>
-    <div class="big_spacing"></div>
+    <div class="biggest_spacing"></div>
 
 
-    <div class="skills">
+    <div class="stage">
         <div class="sidetext">
-            <p class="">- Skills</p>
+            <p class="">- Stage</p>
         </div>
         <div class="width">
-            <h1>Skills<span class="blue">.</span></h1>
+            <h1>Stage<span class="blue">.</span></h1>
+            <div class="light_spacing"></div>
+            <div class="text">
+                <p>De opleiding die ik volg is 3 jaar. In die 3 jaar moet ik 1 jaar lang stage lopen bij 2 verschillende bedrijven. Ik ben sinds eind Juni 2020 klaar met mijn eerste stage bij Justbetter, een bedrijf gespecialiseerd in Magento en Wordpress. Helaas was tijdens mijn stageperiode Covid-19 uitgebroken en heb ik maar 6 weken op kantoor gewerkt en de rest thuis. Dit was iets waar helaas niks aan te doen was, gelukkig heb ik wel veel geleerd van de stage zoals werken met Bedrock en Sage voor Wordpress, gnrok, SEO voor websites, git, git-flow en nog veel meer.</p>
+            </div>
+            <div class="light_spacing"></div>
+            <a href="{{asset('downloads/CV.pdf')}}" download class="cv_button"><img src="{{asset('images/icon/download.png')}}" alt="">Download CV</a>
+            <div class="light_spacing"></div>
         </div>
     </div>
+
 
 @endsection

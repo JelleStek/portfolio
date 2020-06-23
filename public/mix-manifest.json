@@ -1,7 +1,3 @@
 {
-    "/css/nav.css": "/css/nav.css",
-    "/css/footer.css": "/css/footer.css",
-    "/css/main.css": "/css/main.css",
-    "/css/pages.css": "/css/pages.css",
-    "/css/cases.css": "/css/cases.css"
+    "/css/main.css": "/css/main.css"
 }
