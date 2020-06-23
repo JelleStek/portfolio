@@ -4,6 +4,10 @@
   font-weight: bold;
 }
 
+:root {
+  font-family: "Inter", sans-serif;
+}
+
 .blue {
   color: #155fff !important;
 }
@@ -474,6 +478,15 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     margin: 0 auto;
     display: block;
+  }
+
+  .main-info .about1 p {
+    max-width: 100%;
+  }
+
+  .main-info .about1 {
+    width: 90%;
+    max-width: 100%;
   }
 
   .projects .width .grid {
