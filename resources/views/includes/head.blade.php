@@ -8,16 +8,37 @@
     <!-- SEO -->
     <meta name="copyright"
           property="copyright"
-          content="You can write a copyright disclaimer here. (Which is optional)" />
+          content="MIT License
+
+            Copyright (c) 2020 Jelle Stekelenburg
+
+            Permission is hereby granted, free of charge, to any person obtaining a copy
+            of this software and associated documentation files (the 'Software'), to deal
+                in the Software without restriction, including without limitation the rights
+                to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                copies of the Software, and to permit persons to whom the Software is
+                furnished to do so, subject to the following conditions:
+
+                The above copyright notice and this permission notice shall be included in all
+                copies or substantial portions of the Software.
+
+                THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                SOFTWARE." />
+
     <meta name="description"
           property="description"
-          content="Write description about your website here, use key words that users will search for. (Stay between 70 - 320 characters)" />
+          content="Portfolio van Jelle Stekelenburg, een 18 jarige Front-End Developer uit schagen..." />
     <meta name="title"
           property="title"
-          content="Describe your website within the scope of 35 - 70 characters." />
+          content="Portfolio - Jelle Stekelenburg" />
     <meta name="keywords"
           property="keywords"
-          content="Write, your, key-words, here." />
+          content="Jelle Stekelenburg, jelle stekelenburg, Portfolio, portfolio, Front end, front-end, developer\" />
 
     <title>Portfolio - Jelle Stekelenburg</title>
 
