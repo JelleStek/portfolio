@@ -44,6 +44,20 @@
                 max-width: 70%;
             }
         }
+
+        & a.cv_button {
+            color: #fff;
+            text-decoration: none;
+            margin-top: 6em;
+            font-family: 'Inter', sans-serif;
+
+            & img {
+                height: 20px;
+                padding-right: .6em;
+                vertical-align: middle;
+                margin: 0;
+            }
+        }
     }
 }
 
@@ -52,6 +66,17 @@
 
     .stage .width {
         width: 90%;
+
+        & a.cv_button {
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            padding: 20px 50px;
+            border-radius: 5%;
+            background: #f2f2f2;
+            color: #000;
+        }
     }
 
     .stage .width .text p {
