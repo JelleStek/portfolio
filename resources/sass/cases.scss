@@ -1,13 +1,15 @@
 .case {
-    text-align: center;
-    width: 80%;
+    text-align: left;
+    width: 65%;
     margin: 0 auto;
+    font-family: 'Inter', sans-serif;
 
     & img {
         max-width: 100%;
     }
 
     h1.case_head {
+        text-align: center;
         font-family: machina, sans-serif;
         font-weight: 700;
         font-style: normal;
@@ -17,13 +19,37 @@
     p {
         font-family: 'Inter', sans-serif;
         font-size: 1.3em;
-        max-width: 60%;
-        margin: 0 auto;
 
         & a {
             text-decoration: none;
             color: #155fff;
         }
+    }
+
+    & ul {
+        font-size: 1.1em;
+        list-style: none;
+
+        & li {
+
+            &::before {
+                content: "\2022";
+                color: #155fff;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em;
+            }
+        }
+    }
+
+    & ul li ul {
+        margin-left: 2em;
+    }
+
+    & h2 {
+        font-family: machina, sans-serif;
+        font-size: 2em;
     }
 
     & .grid {

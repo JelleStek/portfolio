@@ -1,4 +1,6 @@
-@import url(https://use.typekit.net/hrt6ppr.css);@import url(https://rsms.me/inter/inter.css);nav {
+@import url(https://use.typekit.net/hrt6ppr.css);@import url(https://rsms.me/inter/inter.css);@charset "UTF-8";
+
+nav {
   width: 100%;
   position: fixed;
   top: 0;
@@ -295,9 +297,10 @@ footer .footer_under .grid .by h3 {
 }
 
 .case {
-  text-align: center;
-  width: 80%;
+  text-align: left;
+  width: 65%;
   margin: 0 auto;
+  font-family: "Inter", sans-serif;
 }
 
 .case img {
@@ -305,6 +308,7 @@ footer .footer_under .grid .by h3 {
 }
 
 .case h1.case_head {
+  text-align: center;
   font-family: machina, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -314,13 +318,34 @@ footer .footer_under .grid .by h3 {
 .case p {
   font-family: "Inter", sans-serif;
   font-size: 1.3em;
-  max-width: 60%;
-  margin: 0 auto;
 }
 
 .case p a {
   text-decoration: none;
   color: #155fff;
+}
+
+.case ul {
+  font-size: 1.1em;
+  list-style: none;
+}
+
+.case ul li::before {
+  content: "\2022";
+  color: #155fff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.case ul li ul {
+  margin-left: 2em;
+}
+
+.case h2 {
+  font-family: machina, sans-serif;
+  font-size: 2em;
 }
 
 .case .grid {
