@@ -51,5 +51,6 @@
     </div>
     
     <div class="big_spacing"></div>
+    <div class="big_spacing"></div>
 
 @endsection
