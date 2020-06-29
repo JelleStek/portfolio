@@ -49,6 +49,7 @@
             </div>
         </div>
     </div>
-
+    
+    <div class="big_spacing"></div>
 
 @endsection
