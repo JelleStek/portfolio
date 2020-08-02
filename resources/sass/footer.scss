@@ -1,6 +1,10 @@
 footer {
     height: 250px;
 
+    div {
+        max-width: 100% !important;
+    }
+
 
     & .width {
         width: 80%;

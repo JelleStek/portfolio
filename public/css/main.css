@@ -10,6 +10,10 @@ nav {
   z-index: 10000;
 }
 
+nav div {
+  max-width: 100% !important;
+}
+
 nav .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -56,6 +60,7 @@ nav .grid .right ul a.active {
 .line_nav {
   height: 1px;
   width: 100%;
+  max-width: 100% !important;
   background-color: #636b6f;
   position: fixed;
   top: 0;
@@ -92,6 +97,10 @@ nav .grid .right ul a.active {
 
 footer {
   height: 250px;
+}
+
+footer div {
+  max-width: 100% !important;
 }
 
 footer .width {
@@ -380,13 +389,18 @@ footer .footer_under .grid .by h3 {
 }
 
 body {
-  max-width: 100%;
+  margin: 0 auto;
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-weight: 400;
   font-style: normal;
   background-color: #000;
   color: #fff;
+}
+
+div {
+  max-width: 2420px;
+  margin: 0 auto;
 }
 
 body::-webkit-scrollbar {
@@ -627,9 +641,12 @@ body::-webkit-scrollbar-thumb {
 
 .photo {
   width: 100%;
+  max-width: 100% !important;
   height: 600px;
   background-image: url(/images/photo.jpg?ee150478f5fe917194ceb41a918e2b79);
   background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .photo h2 {
@@ -684,6 +701,10 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
 }
 
+.contact .width .grid .left {
+  margin: 0;
+}
+
 .contact .width .grid .left p {
   font-family: "inter", sans-serif;
 }
@@ -695,6 +716,10 @@ body::-webkit-scrollbar-thumb {
 .contact .width .grid .left p a {
   color: #fff;
   text-decoration: none;
+}
+
+.contact .width .grid .right {
+  margin: 0;
 }
 
 .contact .width .grid .right form {

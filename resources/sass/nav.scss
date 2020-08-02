@@ -7,6 +7,10 @@ nav {
     background-color: #000;
     z-index: 10000;
 
+    div {
+        max-width: 100% !important;
+    }
+
     & .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -57,6 +61,7 @@ nav {
 .line_nav {
     height: 1px;
     width: 100%;
+    max-width: 100% !important;
     background-color: #636b6f;
     position: fixed;
     top: 0;

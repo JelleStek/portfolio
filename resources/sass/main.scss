@@ -35,13 +35,17 @@ $bg2: #090909;
     padding: 0;
 }
 body {
-    max-width: 100%;
+    margin: 0 auto;
     scroll-behavior: smooth;
     overflow-x: hidden;
     font-weight: 400;
     font-style: normal;
     background-color: #000;
     color: #fff;
+}
+div {
+    max-width: 2420px;
+    margin: 0 auto;
 }
 //scroll
 body::-webkit-scrollbar {
@@ -287,9 +291,12 @@ body::-webkit-scrollbar-thumb {
 
 .photo {
     width: 100%;
+    max-width: 100% !important;
     height: 600px;
     background-image: url("../../public/img/photo.jpg");
     background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     & h2 {
         display: block;
@@ -343,6 +350,7 @@ body::-webkit-scrollbar-thumb {
             width: 100%;
 
             & .left {
+                margin: 0;
                 & p {
                     font-family: 'inter', sans-serif;
 
@@ -358,6 +366,7 @@ body::-webkit-scrollbar-thumb {
             }
 
             & .right {
+                margin: 0;
 
                 & form {
                     display: grid;
