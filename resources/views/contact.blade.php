@@ -4,7 +4,7 @@
 
     <nav>
         <div class="grid">
-            <div class="left">
+            <div class="left" style="margin: 0;">
                 <h1>JS<span class="blue">.</span></h1>
             </div>
             <div class="right">
